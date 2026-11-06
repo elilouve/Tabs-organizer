@@ -1,8 +1,6 @@
-# Tabs Organizer
+# Tabs Organizer (Forge 1.20.1)
 
-This mod is write with ai. I don't know how to code, I can make various thing but code is something I'm not good. Everything is test and debug, the mod work fine but I can make mistake with the code, report if you have any issue with the crash log or the latest log. I do my best to patch everything inside the mod. If you have any suggestion to improve the code don't hesitate and I check to patch ! Anyway, enjoy the mod.
-
-A **client-side** NeoForge mod for Minecraft **1.21.1** that cleans up the creative inventory when you have
+A **client-side** Forge mod for Minecraft **1.20.1** that cleans up the creative inventory when you have
 many mods installed.
 
 - Two stacked rows of tabs on top and two on the bottom, like the tabs of a Windows settings window
@@ -12,10 +10,12 @@ many mods installed.
 - A padlock to lock everything and avoid accidental changes
 - Everything is saved in `config/tabsorganizer.json`
 
+> The NeoForge 1.21.1 version lives on the `1.21.1-neoforge` branch.
+
 ## Requirements
 
-- Minecraft 1.21.1
-- NeoForge 21.1.x
+- Minecraft 1.20.1
+- Forge 47.x (1.20.1)
 - Client side only (nothing to install on a server)
 
 ## How to use
@@ -54,13 +54,13 @@ Deleting the file brings everything back to the default.
 
 ## Building from source
 
-You need Java 21.
+You need Java 17.
 
 ```
 ./gradlew build        (on Windows PowerShell: .\gradlew build)
 ```
 
-The mod is created in `build/libs/tabsorganizer-<version>.jar`.
+The mod is created in `build/libs/tabsorganizer-forge-1.20.1-<version>.jar`.
 To test it in a development game: `./gradlew runClient`.
 
 ## License
@@ -68,13 +68,13 @@ To test it in a development game: `./gradlew runClient`.
 [MIT](LICENSE) © 2026 elilouve
 
 This project uses the official Mojang mappings. See
-<https://github.com/NeoForged/NeoForm/blob/main/Mojang.md> for their license.
+<https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md> for their license.
 
 ---
 
 # Français
 
-**Tabs Organizer** est un mod NeoForge 1.21.1, **uniquement côté client**, qui range le menu créatif quand on a beaucoup de mods :
+**Tabs Organizer** est un mod Forge 1.20.1, **uniquement côté client**, qui range le menu créatif quand on a beaucoup de mods :
 deux rangées d'onglets en haut et deux en bas, déplacement des onglets par glisser-déposer (même d'une page à l'autre),
 fusion d'onglets avec un panneau latéral et une entrée automatique « Général (A-Z) », renommage, et un cadenas contre
 les modifications involontaires.

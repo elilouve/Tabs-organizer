@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "refmap": "tabsorganizer.refmap.json",
+  "package": "com.tabsorganizer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "CreativeModeInventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

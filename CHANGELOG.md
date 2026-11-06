@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0
+## 1.0.0 (Forge 1.20.1)
 
-First release.
+First release for Forge 1.20.1 (same features as the NeoForge 1.21.1 version).
 
 - Two rows of tabs on top and two on the bottom
 - Drag and drop reordering, across pages, with empty slots and a spare page

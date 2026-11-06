@@ -1,5 +1,7 @@
 # Tabs Organizer
 
+This mod is write with ai. I don't know how to code, I can make various thing but code is something I'm not good. Everything is test and debug, the mod work fine but I can make mistake with the code, report if you have any issue with the crash log or the latest log. I do my best to patch everything inside the mod. If you have any suggestion to improve the code don't hesitate and I check to patch ! Anyway, enjoy the mod.
+
 A **client-side** NeoForge mod for Minecraft **1.21.1** that cleans up the creative inventory when you have
 many mods installed.
 
